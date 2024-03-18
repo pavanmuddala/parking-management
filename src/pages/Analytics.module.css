@@ -1,0 +1,12 @@
+.analyticsContainer {
+    background-color: #F0F8FF;
+    height: 100vh;
+    margin-left: 200px
+}
+
+.headerContainer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}

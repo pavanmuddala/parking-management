@@ -1,0 +1,20 @@
+.navBarContainer {
+    height: 100vh;
+    background-color:#7CB9E8;
+    color: white;
+    width: 200px;
+    z-index:99;
+    overflow: auto;
+}
+.linkStyle{
+    text-decoration: none;
+    color: white;
+}
+.tabDiv{
+    padding: 10px;
+    /* border:1px solid blue */
+}
+.tabDiv:hover{
+    background-color:  #0CAFFF ;
+    cursor: pointer;
+}

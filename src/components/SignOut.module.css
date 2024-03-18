@@ -1,0 +1,54 @@
+.signoutContainer{
+    position: absolute;
+    z-index: 999;
+    height: 100vh;
+    width: 100%;
+    background-color: #3f3e45d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalContent{
+    background-color: #F0F8FF;
+    border-radius: 6px;
+    width: 400px;
+
+}
+.header{
+    background-color: #6CB4EE;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 6px 6px 0px 0px;
+
+}
+.body{
+    padding: 20px;
+    font-size: 16px;
+}
+.signoutBtn{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cancelBtn{
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buttonContainer{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
