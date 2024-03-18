@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "14.1.0",
+    "@next/font": "13.4.13",
     "chart.js": "^4.4.2",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.0",
-    "next": "14.1.0",
-    "node": "^21.7.1",
+    "next": "13.4.13",
+    "node": "^16.20.2",
     "react": "18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
