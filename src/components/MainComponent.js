@@ -8,7 +8,7 @@ const MainComponent = () => {
         </div>
         <div style={{ display: "flex", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",margin:"10px" }}>
             <div style={{ padding: "20px", fontStyle: "italic", fontSize: "16px" }}>
-                <p>Efficient, hassle-free, and convenient - that's what we strive to offer with our cutting-edge parking management solution. Whether you're a commercial establishment looking to optimize your parking space or a municipality aiming to streamline urban parking, we've got you covered.</p>
+                <p>Efficient, hassle-free, and convenient - that&apos;s what we strive to offer with our cutting-edge parking management solution. Whether you&apos;re a commercial establishment looking to optimize your parking space or a municipality aiming to streamline urban parking, we&apos;ve got you covered.</p>
 
                 <p>Our system is designed to simplify the complexities of parking management, providing seamless integration of technology to enhance user experience and maximize efficiency. From automated entry and exit systems to real-time monitoring and analytics, we offer a comprehensive suite of features tailored to meet your parking needs.</p>
 
