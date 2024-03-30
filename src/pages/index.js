@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Layout from '@/components/Layout'
+import MainComponent from '@/components/MainComponent'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home(props) {
@@ -20,9 +21,8 @@ export default function Home(props) {
   
   return (
     <Layout>
-      <div>
-        Main page
-      </div>
+      <MainComponent></MainComponent>
+      
     </Layout>
   )
 }
