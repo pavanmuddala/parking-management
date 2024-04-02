@@ -40,9 +40,11 @@ const NavBar = () => {
                 <div className={styles.tabDiv}>
                     Check Car
                 </div>
-                <div className={styles.tabDiv}>
-                    Find My Car
-                </div>
+                <Link href={'./FindMyCar'} className={styles.linkStyle}>
+                    <div className={styles.tabDiv} style={router.pathname == "/FindMyCar" ? { backgroundColor: "#007FFF" } : {}}>
+                        Find My Car
+                    </div>
+                </Link>
                 <div className={styles.tabDiv}>
                     Parking Fee Management
                 </div>
