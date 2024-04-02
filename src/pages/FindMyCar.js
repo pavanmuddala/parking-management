@@ -9,7 +9,7 @@ const FindMyCar = () => {
 console.log(carData)
     const searchHandler=()=>{
         setCarData("")
-        axios.get('http://localhost:3000/api/findMyCar', {
+        axios.get('https://parking-management-three.vercel.app/api/findMyCar', {
             params: {
                 carNumber: btoa(carNum)
             }
