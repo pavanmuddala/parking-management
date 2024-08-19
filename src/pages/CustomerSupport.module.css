@@ -1,4 +1,22 @@
-.customerSupportcontainer{
+.customerSupportcontainer {
     background-color: #F0F8FF;
     height: 100vh;
+}
+
+.inputBox {
+    height: 25px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid #00356B;
+    margin-bottom: 10px;
+    padding: 5px
+}
+.btn{
+    border:none;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 4px;
+    cursor: pointer
 }
